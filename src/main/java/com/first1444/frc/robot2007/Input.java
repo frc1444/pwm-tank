@@ -4,8 +4,8 @@ import edu.wpi.first.wpilibj.Joystick;
 
 public final class Input {
 
-    private static final int LEFT_Y_AXIS = 0;
-    private static final int RIGHT_Y_AXIS = 0;
+    private static final int LEFT_Y_AXIS = 1;
+    private static final int RIGHT_Y_AXIS = 5;
     private final Joystick controllerJoystick;
 
     public Input() {

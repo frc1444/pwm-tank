@@ -12,8 +12,8 @@ public class Robot extends TimedRobot {
 
 
     public Robot() {
-        leftMotor = new Victor(0); // TODO
-        rightMotor = new Victor(1); // TODO
+        leftMotor = new Victor(0);
+        rightMotor = new Victor(1);
         input = new Input();
 
         rightMotor.setInverted(true);
